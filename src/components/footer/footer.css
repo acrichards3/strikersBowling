@@ -1,4 +1,12 @@
 .footer {
-    position: fixed;
-    bottom: 0;
+  margin-top: 50px;
+  color: white;
+  background-color: #343a40;
+  display: flex;
+  bottom: 0;
+}
+
+.footerItems {
+  display: flex;
+  justify-content: center;
 }

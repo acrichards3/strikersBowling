@@ -6,22 +6,25 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Error404 from './pages/Error404';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './app.css';
 
 function App() {
   return (
     <>
       <Router>
-        <div className="app">
-          <Navbar />
-          <Footer />
-          <div className="content">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="menu" element={<Menu />} />
-              <Route path="*" element={<Error404 />} />
-            </Routes>
+        <div className="page-container">
+          <div className="app">
+            <Navbar />
+            <div className="content">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="menu" element={<Menu />} />
+                <Route path="*" element={<Error404 />} />
+              </Routes>
+            </div>
           </div>
         </div>
+        <Footer />
       </Router>
     </>
   );

@@ -1,0 +1,19 @@
+.container {
+    margin-top: 30px;
+}
+
+.Errtitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.Errtext {
+    display: flex;
+    justify-content: center;
+}
+
+.homeBtn {
+    display: flex;
+    justify-content: center;
+}

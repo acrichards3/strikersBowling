@@ -1,0 +1,9 @@
+.menus {
+    display: flex;
+    justify-content: center;
+}
+
+.printBtn {
+    display: flex;
+    justify-content: center;
+}

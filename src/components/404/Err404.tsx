@@ -15,7 +15,7 @@ export default function Err404() {
       </div>
       <div className="row">
         <div className="homeBtn">
-          <Button variant="outline-danger" href="/" size="lg">
+          <Button variant="danger" href="/" size="lg">
             Return Home
           </Button>
         </div>

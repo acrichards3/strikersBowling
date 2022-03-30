@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navigation';
 import Footer from './components/footer/Footer';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
+import About from './pages/About';
 import Error404 from './pages/Error404';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
@@ -19,6 +20,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="menu" element={<Menu />} />
+                <Route path="about" element={<About />} />
                 <Route path="*" element={<Error404 />} />
               </Routes>
             </div>

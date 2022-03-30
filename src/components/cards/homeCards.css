@@ -1,0 +1,30 @@
+.hour {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.openBowlingBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.homeCard{
+    height: 400px;
+}
+
+.locationMap {
+    display: flex;
+    justify-content: center;
+}
+
+.mapRatio {
+    height: 250px;
+}
+
+.mapBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    z-index: 999;
+}

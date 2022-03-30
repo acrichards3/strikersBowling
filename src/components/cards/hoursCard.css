@@ -1,0 +1,10 @@
+.hour {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.openBowlingBtn {
+    display: flex;
+    justify-content: center;
+}

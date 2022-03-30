@@ -31,6 +31,11 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+        <div className="row">
+            <div className="col copyright">
+                &copy;{new Date().getFullYear()} Strikers Entertainment Center
+            </div>
+        </div>
       </div>
     </div>
   );

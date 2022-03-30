@@ -10,3 +10,10 @@
   display: flex;
   justify-content: center;
 }
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: rgb(146, 146, 146);
+  font-size: 15;
+}

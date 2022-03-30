@@ -8,6 +8,9 @@ import About from './pages/About';
 import Error404 from './pages/Error404';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
+import "normalize.css";
+import "@blueprintjs/core/lib/css/blueprint.css";
+import "@blueprintjs/icons/lib/css/blueprint-icons.css";
 
 function App() {
   return (

@@ -28,3 +28,8 @@
     margin-top: 5px;
     z-index: 999;
 }
+
+.annoucement {
+    font-family: Rubik, sans-serif;
+    padding-top: 3px;
+}

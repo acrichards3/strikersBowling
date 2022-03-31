@@ -18,7 +18,11 @@ export default function MapCard() {
         ></iframe>
       </Ratio>
       <div className="mapBtn">
-        <Button variant="danger" className='mapBtn'>
+        <Button
+          variant="danger"
+          className="mapBtn"
+          href="https://goo.gl/maps/qPdQyyUGKvqEfMJ68"
+        >
           Get Directions
         </Button>
       </div>

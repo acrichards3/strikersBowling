@@ -2,6 +2,7 @@ import React from 'react';
 import HomeCarousel from '../components/carousels/HomeCarousel';
 import HoursCard from '../components/cards/HoursCard';
 import MapCard from '../components/cards/MapCard';
+import AnnoucementsCard from '../components/cards/AnnoucementsCard';
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
         </div>
         <div className="col-lg-4">
           <MapCard />
+        </div>
+        <div className="col-lg-4">
+          <AnnoucementsCard />
         </div>
       </div>
     </div>

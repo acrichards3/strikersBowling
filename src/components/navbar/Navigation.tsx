@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 
 export default function Navigation() {
   return (
@@ -26,6 +26,7 @@ export default function Navigation() {
               <Nav.Link href="/about">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          <Button variant="danger">Login</Button>
         </Container>
       </Navbar>
     </>

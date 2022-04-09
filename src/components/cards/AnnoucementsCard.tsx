@@ -18,7 +18,7 @@ export default function AnnoucementsCard() {
           {ANNOUCEMENTS.reverse().map((annoucement) => {
             return (
               <tr>
-                <td>{annoucement.text}</td>
+                <td className='annoucement'>{annoucement.text}</td>
               </tr>
             );
           })}
